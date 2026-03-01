@@ -1,5 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <head> 
 
     <!-- The title for the Website -->
@@ -10,7 +12,6 @@
 
     <link>
   </head> 
-
   <body>
     <div>
       <header>
@@ -19,7 +20,7 @@
     </header>
 
 <main>
-  <div class>
+  <div>
     <section>
     </section>
 
@@ -29,6 +30,33 @@
 </main>
 
       <footer>
+        <h2 class="footer-title"> Meet Our Members from the Club!</h2>
+
+        <div class="members_grid">
+            <!-- First person slot -->
+             <div class="member_slot">
+                <img src="NEED TO FILL IN JACOBY PROFOSSIONAL HEADSHOT" alt="Jacoby Stewart">
+                <h3> Jacoby Stewart </h3>
+                <p>Front-end Focused Developer & Cofounder of CTIS Skill Stack- Python, Java, CSS, HTML </p>
+                <a href="members/Jacoby.html" class="portfolio_button">See More </a>
+             </div>
+
+            <!-- Second person slot -->
+             <div class="member_slot">
+                <img src="NEED TO FILL IN RONAN PROFOSSIONAL HEADSHOT" alt="Ronan Christie">
+                <h3> Ronan Christie </h3>
+                <p>Back-end Focused Developer & Founder of CTIS Skill Stack- Python, Java, CSS, HTML, R </p>
+                <a href="members/Ronan.html" class="portfolio_button">See More </a>
+             </div>
+
+            <!-- Third person slot -->
+             <div class="member_slot">
+                <img src="NEED TO FILL IN ??? PROFOSSIONAL HEADSHOT" alt="Full Name FILL IN">
+                <h3> First & Last Name </h3>
+                <p>Aspiring job first, Significant roles in leadership second lastly skill stack formatted Skill Stack- Python, Java, CSS, HTML </p>
+                <a href="members/???.html" class="portfolio_button">See More </a>
+             </div>
+        </div>
       </footer>
     </div>
   </body> 
