@@ -1,0 +1,45 @@
+/* Background and entirety website styling */
+body {
+    background-color: #111;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+/* Header styling */
+header {
+    background-color: white;
+    padding: 1rem;
+}
+
+header a {
+    color: #9f8307;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+/* Footer styling */
+footer {
+    background-color: white;
+    padding: 2rem 1rem;
+}
+
+/* Member select section styling*/
+/* This is the grid format for each member added */
+.members_grid {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+/* This is the section of each members slot on the bottoms format for each member added */
+.member_slot {
+    background-color: #222;
+    padding: 15px;
+    width: 250px;
+}
+/* This is the button to goto a personal page format for each member added */
+.portfolio_button {
+    background-color: #9f8307;
+    color: white;
+    padding: 6px 12px;
+    text-decoration: none;
+}
