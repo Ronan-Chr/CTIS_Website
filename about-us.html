@@ -17,9 +17,8 @@
   <body>
     <header>
       <nav>
-        <!-- Test Change 2.0 -->
-        <a href="./Homepage">Home</a>
-        <a href="./about-us">About</a>
+        <a href="./index.html">Home</a>
+        <a href="./about-us.html">About Us</a>
       </nav>
     </header>
 
@@ -33,25 +32,45 @@
 
 
       <!-- club activities -->
-      <section aria-labelledby="what-we-do-title">
-        <h2 id="what-we-do-title">What We Do</h2>
+        <section aria-labelledby="what-we-do-title">
+            <h2 id="what-we-do-title">What We Do</h2>
 
         <!-- tab buttons -->
-         <div class="tab-buttons" role="tablist" aria-label="What we do">
-            <button type="button" class="tab-btn" role="tab" aria-selected="true" aria-controls="timeline" id="timeline-tab" tabindex="0" data-tab="timeline">
-                Timeline
-            </button>
-            <button type="button" class="tab-btn" role="tab" aria-selected="false" aria-controls="team-projects" id="team-projects-tab" tabindex="-1" data-tab="projects">
-                Team Projects
-            </button>
-            <button type="button" class="tab-btn" role="tab" aria-selected="false" aria-controls="events" id="events-tab" tabindex="-1" data-tab="events">
-                Events
-            </button>
-         </div>
+            <div class="tab-buttons" role="tablist" aria-label="What we do">
+                <button type="button" class="tab-btn" role="tab" aria-selected="true" aria-controls="timeline-tab" id="timeline-tab" tabindex="0" data-tab="timeline">
+                    Timeline
+                </button>
+                <button type="button" class="tab-btn" role="tab" aria-selected="false" aria-controls="team-projects-tab" id="team-projects-tab" tabindex="-1" data-tab="projects">
+                    Team Projects
+                </button>
+                <button type="button" class="tab-btn" role="tab" aria-selected="false" aria-controls="events-tab" id="events-tab" tabindex="-1" data-tab="events">
+                    Events
+                </button>
+            </div>
 
          <!-- panels -->
-          <section id="timeline" class="tab-panel" role="tabpanel" aria-labelledby="tab-timeline">
+        <section id="timeline" class="tab-panel" role="tabpanel" aria-labelledby="timeline-tab">
             <!-- timeline information goes here -->
+
+                <!-- timeline dates -->
+       
+            <ol class="timeline">
+                <li class="timeline-item">
+                    <time datatime="2026-02-03">February 3, 2026</time>
+                    <h3>Club Founded</h3>
+                    <p>Our club was founded by a group of passionate students who wanted to create a space for learning and collaboration.</p>
+                </li>
+
+
+        <!-- timeline images -->
+            </ol>
+            <div class="project-line" aria-label="Team projects">
+                <a class="project-card" href="">
+                    <img src="" alt="Team Website graphic" />
+                    <h3>Team Website</h3>
+                    <p>A collaborative effort to create a central hub for club information and resources.</p>
+                </a>
+            </div>
           </section> 
             
           <section id="team-projects" class="tab-panel" role="tabpanel" aria-labelledby="tab-team-projects" hidden>
@@ -62,24 +81,7 @@
           </section>
       </section>
 
-      <!-- timeline dates -->
-       
-      <ol class="timeline">
-        <li class="timeline-item">
-            <time datatime="2026-02-03">February 3, 2026</time>
-            <h3>Club Founded</h3>
-            <p>Our club was founded by a group of passionate students who wanted to create a space for learning and collaboration.</p>
-        </li>
-
-        <!-- timeline images -->
-      </ol>
-      <div class="project-line" aria-label="Team projects">
-        <a class="project-card" href="">
-            <img src="" alt="Team Website graphic" />
-            <h3>Team Website</h3>
-            <p>A collaborative effort to create a central hub for club information and resources.</p>
-        </a>
-      </div>
+      
 
     </main>
 
