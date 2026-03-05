@@ -38,25 +38,32 @@
 
         <!-- tab buttons -->
          <div class="tab-buttons" role="tablist" aria-label="What we do">
-            <button type="button" class="tab-btn" role="tab" aria-selected="true" data-tab="timeline">
+            <button type="button" class="tab-btn" role="tab" aria-selected="true" aria-controls="timeline" id="timeline-tab" tabindex="0" data-tab="timeline">
                 Timeline
             </button>
-            <button type="button" class="tab-btn" role="tab" aria-selected="false" data-tab="projects">
+            <button type="button" class="tab-btn" role="tab" aria-selected="false" aria-controls="team-projects" id="team-projects-tab" tabindex="-1" data-tab="projects">
                 Team Projects
+            </button>
+            <button type="button" class="tab-btn" role="tab" aria-selected="false" aria-controls="events" id="events-tab" tabindex="-1" data-tab="events">
+                Events
             </button>
          </div>
 
          <!-- panels -->
-          <section id="timeline" class="tab-panel" role="tabpanel">
+          <section id="timeline" class="tab-panel" role="tabpanel" aria-labelledby="tab-timeline">
             <!-- timeline information goes here -->
           </section> 
             
-          <section id="team-projects" class="tab-panel" role="tabpanel" hidden>
+          <section id="team-projects" class="tab-panel" role="tabpanel" aria-labelledby="tab-team-projects" hidden>
                 <!-- team projects information goes here -->
+          </section>
+          <section id="events" class="tab-panel" role="tabpanel" aria-labelledby="tab-events" hidden>
+                <!-- events information goes here -->
           </section>
       </section>
 
       <!-- timeline dates -->
+       
       <ol class="timeline">
         <li class="timeline-item">
             <time datatime="2026-02-03">February 3, 2026</time>
@@ -73,11 +80,6 @@
             <p>A collaborative effort to create a central hub for club information and resources.</p>
         </a>
       </div>
-      <ul>
-        <li>Timeline</li>
-        <li>Team Projects</li>
-      </ul>
-      
 
     </main>
 
